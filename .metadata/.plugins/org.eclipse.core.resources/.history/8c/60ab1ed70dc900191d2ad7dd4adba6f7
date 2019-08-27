@@ -1,0 +1,14 @@
+package com.csci.demo.domain;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity
+public class Ingredient {
+	
+	private String id;
+	private String name;
+	
+}

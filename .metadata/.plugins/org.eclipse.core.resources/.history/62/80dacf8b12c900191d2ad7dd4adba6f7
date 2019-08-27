@@ -1,0 +1,5 @@
+package com.csci.demo.data;
+
+public class RecipeRepository {
+
+}

@@ -1,0 +1,12 @@
+package com.csci.demo;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
+
+import com.csci.demo.data.IngredientRepository;
+import com.csci.demo.domain.Ingredient;
+
+public class StartConfig {
+
+	
+}

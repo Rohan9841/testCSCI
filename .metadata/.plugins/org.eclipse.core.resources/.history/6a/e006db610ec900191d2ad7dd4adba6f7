@@ -1,0 +1,21 @@
+package com.csci.demo.data;
+
+import java.util.List;
+
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+import com.csci.demo.domain.Ingredient;
+
+public class Recipe {
+
+	@Id
+	private int id;
+	
+	private String description;
+	private String imagePath;
+	
+	@ManyToMany
+	private List<Ingredient> ingredients;
+	
+}
