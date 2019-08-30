@@ -35,8 +35,8 @@ INDEX VERSION 1.131+C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\
 2333934463.index
 436452428.index
 2605561000.index
-1288582944.index
 196621042.index
+1288582944.index
 1097317675.index
 1292799411.index
 2710579480.index

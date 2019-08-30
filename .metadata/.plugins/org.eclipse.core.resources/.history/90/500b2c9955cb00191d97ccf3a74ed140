@@ -16,7 +16,9 @@ import com.csci.demo.data.Recipe;
 import com.csci.demo.data.RecipeRepository;
 import com.csci.demo.domain.Ingredient;
 
+
 @RepositoryRestController
+@CrossOrigin(origins="*")
 public class RecipeController {
 
 	private IngredientRepository repo;
