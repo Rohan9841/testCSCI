@@ -24,8 +24,7 @@ public class Recipe {
 	private String description;
 	private String imagePath;
 	
-	@ManyToMany(targetEntity = Ingredient.class)
-	private List<Ingredient> ingredients;
+	private String ingredient;
 	
 	private String name;
 	

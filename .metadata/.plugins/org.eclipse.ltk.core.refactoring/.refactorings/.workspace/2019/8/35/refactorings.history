@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="false" description="Delete 8 resources" element1="/tacocloud-data" element2="/ch06" element3="/tacocloud-domain" element4="/tacocloud-security" element5="/tacocloud-ui" element6="/tacos" element7="/tacocloud-web" element8="/tacocloud-api" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1567036987861"/>
+</session>

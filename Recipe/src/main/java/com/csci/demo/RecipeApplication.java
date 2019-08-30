@@ -19,10 +19,10 @@ public class RecipeApplication {
 	    return new CommandLineRunner() {
 	      @Override
 	      public void run(String... args) throws Exception {
-	        repo.save(new Ingredient("TM","Tomato"));
-	        repo.save(new Ingredient("On","Onion"));
-	        repo.save(new Ingredient("Ap","Apple"));
-	        repo.save(new Ingredient("Gr","Grape"));
+	        repo.save(new Ingredient("tm","Tomato"));
+	        repo.save(new Ingredient("on","Onion"));
+	        repo.save(new Ingredient("ap","Apple"));
+	        repo.save(new Ingredient("gp","Grape"));
 	      }
 	    };
 }
