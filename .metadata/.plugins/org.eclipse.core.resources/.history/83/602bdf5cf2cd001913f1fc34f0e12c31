@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:mysql://student-dev.cnymyfkgy4hj.us-east-1.rds.amazonaws.com:3306/studentsDevDB
+spring.datasource.username= Rohan
+spring.datasource.password= Rohan9841
+server.port = 8082
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.show-sql = true
+cloud.aws.region.static=us-east-1
+#spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver

@@ -1,0 +1,7 @@
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.datasource.url=student-dev.cnymyfkgy4hj.us-east-1.rds.amazonaws.com:3306/studentDevDB
+spring.datasource.username=Rohan
+spring.datasource.password= Rohan9841
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql = true
+#spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver

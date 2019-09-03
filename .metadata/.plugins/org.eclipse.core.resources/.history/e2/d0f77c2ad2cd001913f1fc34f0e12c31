@@ -1,0 +1,8 @@
+FROM openjdk:8-jdk-alpine
+ENV SPRING_PROFILES_ACTIVE docker
+VOLUME /tmp
+ARG JAR_FILE
+ENTRYPOINT ["java",\
+			 "-Djava.security.egd=file:/dev/./urandom",\
+			 "-jar",\
+			 "/users-mysql.jar"]

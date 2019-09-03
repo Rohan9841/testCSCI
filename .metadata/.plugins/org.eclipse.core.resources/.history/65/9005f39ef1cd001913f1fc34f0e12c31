@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:mysql://${Rohan.database.writerendpoint}:${Rohan.database.port}/${Rohan.database.name}
+spring.datasource.username= Rohan
+spring.datasource.password= Rohan9841
+server.port = 8082
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.show-sql = true
+
+Rohan.database.writerendpoint = student-dev.cnymyfkgy4hj.us-east-1.rds.amazonaws.com
+Rohan.database.port = 3306
+Rohan.database.name = studentDevDB

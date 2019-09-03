@@ -1,16 +1,15 @@
 package com.csci.demo;
 
-import java.util.Arrays;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import com.csci.demo.data.IngredientRepository;
-import com.csci.demo.data.Recipe;
 import com.csci.demo.domain.Ingredient;
 
+@EnableAutoConfiguration
 @SpringBootApplication
 public class RecipeApplication {
 

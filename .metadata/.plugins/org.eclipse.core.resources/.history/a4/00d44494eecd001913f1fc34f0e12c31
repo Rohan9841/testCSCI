@@ -1,0 +1,2 @@
+cloud.aws.rds.spring-cloud-test-db
+cloud.aws.rds.spring-cloud-test-db.password=se3retpass
