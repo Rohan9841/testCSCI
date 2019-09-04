@@ -1,3 +1,0 @@
-FROM openjdk:8-jdk-alpine
-ADD target/users-mysql.jar users-mysql.jar
-ENTRYPOINT ["java","-jar","user-mysql.jar"]

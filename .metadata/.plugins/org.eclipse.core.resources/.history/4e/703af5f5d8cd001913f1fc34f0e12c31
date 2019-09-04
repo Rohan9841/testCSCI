@@ -1,8 +1,0 @@
-FROM openjdk:8-jdk-alpine
-ADD target/users-mysql.jar users-mysql.jar
-ENV SPRING_PROFILES_ACTIVE docker
-VOLUME /tmp
-ENTRYPOINT ["java",\
-			 "-Djava.security.egd=file:/dev/./urandom",\
-			 "-jar",\
-			 "/users-mysql.jar"]

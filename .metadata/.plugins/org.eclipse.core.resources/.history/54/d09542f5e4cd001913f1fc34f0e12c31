@@ -1,9 +1,0 @@
-spring.jpa.database-platform=student-dev.cnymyfkgy4hj.us-east-1.rds.amazonaws.com:3306/studentDevDB
-
-spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:mysql-standalone:3306/springpoc
-spring.datasource.username=Rohan
-spring.datasource.password= Rohan9841
-server.port = 8086
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql = true
