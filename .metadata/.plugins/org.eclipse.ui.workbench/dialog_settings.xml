@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.e4.ui.importer.wizard"/>
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.buildship.ui.importwizards"/>
-		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="true"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\Eclipse workspace\RestControllerChange"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
@@ -21,22 +24,6 @@
 		<list key="textEntries">
 		</list>
 		<list key="textArray">
-		</list>
-	</section>
-	<section name="FileSystemImportWizard">
-	</section>
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="491"/>
-		<item key="DIALOG_Y_ORIGIN" value="68"/>
-	</section>
-	<section name="FileSystemExportWizard">
-		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
-		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
-		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="true"/>
-		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
-			<item value="C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\Eclipse workspace\Deploy angular +spring"/>
-			<item value="C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\Eclipse workspace\Deploy angular + spring"/>
-			<item value="C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\Eclipse workspace\SimpleJsonFormat"/>
 		</list>
 	</section>
 </section>

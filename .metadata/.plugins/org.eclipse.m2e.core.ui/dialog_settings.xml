@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
 			<item value="C:\Users\Nisha Dangol\Desktop\Course related\Senior\CS 4065\Eclipse workspace\Test2\Recipe"/>
@@ -14,10 +15,13 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+=======
+>>>>>>> 9a57ca423722bd9edc6b75664d5d467ac8b1b52d
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+<<<<<<< HEAD
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
 		</list>
@@ -78,4 +82,6 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+=======
+>>>>>>> 9a57ca423722bd9edc6b75664d5d467ac8b1b52d
 </section>
